@@ -1,0 +1,22 @@
+{
+    "name": "chat",
+    "description": "tchat MVC",
+    "type": "project",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+            "App\\": "app/Route.php/",
+            "App\\Controllers\\": "src/Controllers/",
+            "App\\Models\\": "src/Models/",
+            "App\\Handlers\\": "src/Handlers/",
+            "App\\Repository\\": "src/Repository/"
+        },
+      "classmap": [
+            "app/Route.php",
+            "src/Controllers/",
+            "src/Handlers/",
+            "src/Models/",
+            "src/Repository/"
+    ]
+    }
+}
