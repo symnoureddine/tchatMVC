@@ -9,7 +9,7 @@ namespace App\Repository;
 
       try 
          {
-           $bdd = new \PDO('mysql:host=localhost;dbname=tchatzk', 'root', '');
+           $bdd = new \PDO('mysql:host=localhost;dbname=tchatmvc', 'root', '');
          }
          catch(\PDOException $e)
          {
