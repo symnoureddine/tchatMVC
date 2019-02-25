@@ -28,4 +28,7 @@
  2. ajouter la ligne suivante dans le  fichier hosts `(C:\Windows\System32\drivers\etc\hosts)` : 
         
         127.0.0.1 local.chat
-      
+ 3. 
+
+
+composer update 

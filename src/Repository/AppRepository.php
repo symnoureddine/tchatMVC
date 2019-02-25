@@ -96,7 +96,7 @@ namespace App\Repository;
          if ($resultat)
          {
           $param=["message"=>"username existe déja!","status"=>0];
-          $this->renderView('add.php',$param);
+          $this->renderView('register.php',$param);
          }
          else{
          $req = $this->getDbInstance()->prepare('INSERT INTO user (username,password,connected) VALUES(:user,:pass,:connect)');

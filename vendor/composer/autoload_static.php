@@ -41,12 +41,13 @@ class ComposerStaticInitd5264706124d991f177a91cc5f1c7c24
     );
 
     public static $classMap = array (
+        'App\\Controllers\\IndexController' => __DIR__ . '/../..' . '/src/Controllers/IndexController.php',
         'App\\Controllers\\MessageController' => __DIR__ . '/../..' . '/src/Controllers/MessageController.php',
         'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/src/Controllers/UserController.php',
         'App\\Handlers\\UserHandler' => __DIR__ . '/../..' . '/src/Handlers/UserHandler.php',
         'App\\Models\\Message' => __DIR__ . '/../..' . '/src/Models/Message.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/src/Models/User.php',
-        'App\\Service\\AppRepository' => __DIR__ . '/../..' . '/src/Repository/AppRepository.php',
+        'App\\Repository\\AppRepository' => __DIR__ . '/../..' . '/src/Repository/AppRepository.php',
         'Route' => __DIR__ . '/../..' . '/app/Route.php',
     );
 
