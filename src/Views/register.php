@@ -19,7 +19,7 @@
   <div class="container-fluid">
   <div class="row">
   	<div class="col-md-offset-3 col-md-6">
- 	<form class=""  action="/user/addUser" method="POST">
+ 	<form class=""  action="/user/registerUser" method="POST">
  		<div  class="form-group">
  		<input type="text" name="login" placeholder="Login" class="form-control" required="true">
  	    </div>

@@ -5,7 +5,6 @@ class Route{
 
     public static function index()
     {    
-
           if(!isset($_SESSION)) {
             session_start();
         }
@@ -24,12 +23,12 @@ class Route{
 
     public static function routeAction($controller, $action)
     {
-        $controller=($controller)?:'index';
+        $controller=($controller)?:'Index';
         $action=($action)?:'index';
 
         $controller = "App\Controllers\\".ucfirst($controller)."Controller";
         $action = "{$action}Action";
-        
+
         if (class_exists($controller)) {
             $controller = new $controller();
             if (method_exists($controller, $action)) {
